@@ -11,7 +11,7 @@ public class Main {
     }
     public static int faktorial(int n) {
         int i = 2;
-        if(n == 0) return 0;
+        if(n == 0) return 1;
         else if (n == 1) return 1;
         else if (!(n == 2)) i = n * faktorial(n-1);
         return i;
